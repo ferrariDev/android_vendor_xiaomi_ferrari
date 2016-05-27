@@ -512,8 +512,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/xiaomi/ferrari/proprietary/lib/hw/sensors.lsm6db0.so:system/lib/hw/sensors.lsm6db0.so \
-    vendor/xiaomi/ferrari/proprietary/lib64/hw/sensors.lsm6db0.so:system/lib64/hw/sensors.lsm6db0.so \
     vendor/xiaomi/ferrari/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
@@ -546,6 +544,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/etc/mmi.cfg:system/etc/mmi.cfg \
     vendor/xiaomi/ferrari/proprietary/etc/mmi/strings.xml:system/etc/mmi/strings.xml \
     vendor/xiaomi/ferrari/proprietary/etc/mmi/strings-zh-rCN.xml:system/etc/mmi/strings-zh-rCN.xml \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib/libsensors.lsm6db0.so:system/vendor/lib/libsensors.lsm6db0.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libsensors.lsm6db0.so:system/vendor/lib64/libsensors.lsm6db0.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_audio.so:system/vendor/lib64/mmi_audio.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
